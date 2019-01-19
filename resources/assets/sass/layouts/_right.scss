@@ -1,0 +1,12 @@
+._it-right {
+    padding: 3rem;
+
+    @media (min-width: 768px) {
+        margin-left: 33vw;
+        padding: 2rem 5rem 5rem;
+    }
+
+    @media (min-width: 992px) {
+        margin-left: calc(24vw + 11px);
+    }
+}

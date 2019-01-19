@@ -1,0 +1,25 @@
+@import './base/typography';
+@import './components/button';
+@import './components/pill';
+@import './layouts/form';
+@import './layouts/card';
+@import './layouts/left';
+@import './layouts/right';
+@import './layouts/article';
+@import './layouts/sitemap';
+@import './layouts/lang-bar';
+
+html {
+    font-size: 13px;
+
+    @media (min-width: 1200px) {
+        font-size: 14px;
+    }
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: #403549;
+    color: rgba(51, 51, 51, 0.7);
+    letter-spacing: 1px;
+}

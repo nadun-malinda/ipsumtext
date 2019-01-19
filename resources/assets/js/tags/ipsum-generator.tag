@@ -1,8 +1,8 @@
 <ipsum-generator>
 
     <div class="card card-default mb-3">
-        <div class="card-body">
-            <h5 class="card-title text-uppercase">Generate Ipsum</h5>
+        <div class="card-body p-0">
+            <h5 class="_it-heading mb-3">Generate Ipsum Text</h5>
             <form onsubmit={handleSubmit}>
                 <div class="form-group">
                     <input type="number" min="1" value="5" class="form-control" ref="ipsumCount">
@@ -14,8 +14,8 @@
                         <option value="3">Paragraphs</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Generate</button>
+                <div class="form-group mb-0">
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Generate</button>
                 </div>
             </form>
         </div>
@@ -69,14 +69,14 @@
         let ipsumCount = self.refs.ipsumCount.value;
         let ipsumType = self.refs.ipsumType.value;
 
-        riot.store.trigger('generate_ipsum', {
+        self.store.trigger('generate_ipsum', {
             id: 0,
             text: self.generator(ipsumCount, ipsumType)
         });
     };
 
     self.on('mount', () => {
-        
+        self.mixin('commonMixin');
     });
     </script>
 
