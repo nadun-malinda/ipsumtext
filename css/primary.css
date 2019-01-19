@@ -1,0 +1,45 @@
+body {
+    background-color: #155592;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25rem;
+}
+
+main {
+    margin-top: 4.5rem;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.nav-link {
+    padding: 0.375rem 0.75rem;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    background: repeating-linear-gradient(-45deg, #fff, #fff 8px, #f4f6f8 8px, #f4f6f8 16px);
+}
+
+.it-top-nav {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    background: repeating-linear-gradient(-45deg, #fff, #fff 8px, #f4f6f8 8px, #f4f6f8 16px);
+}
+
+.it-pill-bar {
+    padding: 0.25rem;
+    background: #155592;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.it-generator-card {
+    transition: 1.5s;
+}
